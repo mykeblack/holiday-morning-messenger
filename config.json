@@ -1,0 +1,49 @@
+{
+  "project_name": "Team",
+  "sensitivity_filter": true,
+  "greetings": [
+    "Good morning everyone",
+    "Morning all",
+    "Morning {project} people",
+    "Hey team",
+    "Rise and shine, team",
+    "Happy {day}, everyone"
+  ],
+  "recent_greetings": [],
+  "apis": [
+    {
+      "id": "wikipedia",
+      "name": "Wikipedia – Observances & Holidays",
+      "type": "wikipedia",
+      "language": "en",
+      "enabled": true,
+      "notes": "No API key required. Pulls observances from Wikipedia date pages."
+    },
+    {
+      "id": "nager",
+      "name": "Nager.Date – Public Holidays",
+      "type": "nager",
+      "country": "GB",
+      "enabled": true,
+      "notes": "No API key required. Change 'country' to your ISO country code (US, AU, DE, FR…)."
+    },
+    {
+      "id": "calendarific",
+      "name": "Calendarific",
+      "type": "calendarific",
+      "api_key": "",
+      "country": "GB",
+      "enabled": false,
+      "notes": "Free API key at https://calendarific.com – supports 230+ countries and many observances."
+    },
+    {
+      "id": "abstractapi",
+      "name": "Abstract API – Holidays",
+      "type": "abstractapi",
+      "api_key": "",
+      "country": "GB",
+      "enabled": false,
+      "notes": "Free API key at https://app.abstractapi.com/api/holidays"
+    }
+  ]
+}
