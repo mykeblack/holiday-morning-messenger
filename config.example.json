@@ -25,22 +25,31 @@
       "type": "nager",
       "country": "GB",
       "enabled": true,
-      "notes": "No API key required. Change 'country' to your ISO country code (US, AU, DE, FR…)."
+      "notes": "No API key required. Change 'country' to your ISO country code."
+    },
+    {
+      "id": "checkiday",
+      "name": "Checkiday – Fun & Novelty Days",
+      "type": "checkiday",
+      "api_key": "",
+      "enabled": true,
+      "public_fallback": true,
+      "notes": "Best source for fun days like National Mr. Potato Head Day. Add an APILayer Checkiday API key for reliable results; without one, the app uses a lightweight public-page fallback where possible."
     },
     {
       "id": "calendarific",
       "name": "Calendarific",
       "type": "calendarific",
-      "api_key": "YOUR_CALENDARIFIC_KEY_HERE",
+      "api_key": "",
       "country": "GB",
       "enabled": false,
-      "notes": "Free API key at https://calendarific.com"
+      "notes": "Free API key at https://calendarific.com – supports 230+ countries."
     },
     {
       "id": "abstractapi",
       "name": "Abstract API – Holidays",
       "type": "abstractapi",
-      "api_key": "YOUR_ABSTRACT_API_KEY_HERE",
+      "api_key": "",
       "country": "GB",
       "enabled": false,
       "notes": "Free API key at https://app.abstractapi.com/api/holidays"
